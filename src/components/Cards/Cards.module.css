@@ -1,0 +1,137 @@
+.container {
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 14px 3px rgba(78, 77, 77, 0.397);
+    margin: 30px;
+}
+
+.card { 
+    width: 420px;
+    background-color: white;
+    border: 1px gray solid;
+    
+}
+
+.img {
+    width: 400px;
+    padding: 30px 30px;
+}
+
+h1 {
+    text-align: left;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: 530;
+}
+
+.availability{
+    background-color: rgb(1 208 178);
+    margin: 5px 15px;
+    padding: 7px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    font-weight: 400;
+    color: white;
+}
+
+.description {
+    height: 80px;
+    padding: 10px 10px;
+    overflow-y: scroll;
+    text-align: justify;
+    color: rgb(112, 112, 112);
+}
+
+.description::-webkit-scrollbar {
+    width: 15px;
+}
+
+.description::-webkit-scrollbar-thumb {
+    background-color: rgb(1 208 178);
+    border-radius: 30px;
+    border: 3px solid white;
+}
+
+
+.city{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 1px 2px 14px 3px rgba(0, 0, 0, 0.30);
+}
+
+.city div {
+    background-color: rgb(27 146 220);
+    width: 15%;
+    box-sizing: content-box;
+    height: 100%;
+    border-radius: 6px 0px 0px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.city span {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.containerElements {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.rooms {
+    display: flex;
+    width: 65%;
+    border-radius: 6px;
+    box-shadow: 1px 2px 14px 3px rgba(0, 0, 0, 0.30);
+    align-items: center;
+}
+
+.rooms div {
+    background-color: rgb(27 146 220);
+    width: 23%;
+    box-sizing: content-box;
+    height: 100%;
+    border-radius: 6px 0px 0px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rooms span { 
+    padding-left: 20px;
+}
+
+.prices {
+    width: 30%;
+    background-color: rgb(27 146 220);
+    border-radius: 6px;
+    box-shadow: 1px 2px 14px 3px rgba(0, 0, 0, 0.30);
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.btnReserve { 
+    width: 90%;
+    height: 30px;
+    background-color: rgb(1 208 178);
+    box-shadow: 1px 2px 14px 3px rgba(0, 0, 0, 0.33);
+    border: none;
+    border-radius: 3px;
+    margin: 10px 20px;
+    cursor: pointer;
+    color: white;  
+}
